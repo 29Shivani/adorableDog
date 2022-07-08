@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FF4949;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Heading */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: #8E3200;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download button */
+.download-button {
+  margin:5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image  */
+
+.iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.color {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.color:hover {
+  color: #FF4949;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #F55C47;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #F55C47;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  color: #4C0027;
+}
+
+.pricing.etext {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 3px 3px 3px #ababab;
+  line-height: 1.5;
+}
+
+.cta-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+#footer {
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+
+@media (max-width: 1000px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
